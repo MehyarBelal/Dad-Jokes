@@ -9,7 +9,13 @@ $(".mainBtn").click(function () {
     success: function (result) {
       let joke = result.setup + " " + result.punchline;
 
-      $(".jokes").append('<div "shadow" id="joke-block">' + joke + "</div>");
+      $(".jokes").append(
+        '<div class="border lead" id="joke-block">' + joke + "</div>"
+      );
     },
   });
+});
+
+$(".clear-btn").click(function () {
+  $(".jokes").children().remove();
 });
