@@ -25,11 +25,23 @@
   }
 }
 
+.jokes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .display {
   display: none !important;
 }
 .loader {
   font-size: 12em;
+  position: absolute;
+  top: 0;
+  left: 0;
+
   flex-direction: column;
   background-color: #f0cb35;
   width: 100%;
@@ -85,13 +97,6 @@ img {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 55em;
-}
-
-.jokes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 button {
