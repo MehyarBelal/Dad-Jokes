@@ -1,11 +1,11 @@
 $(".loader").addClass("display");
-$(".main-button").click(function () {
+$("button").click(function () {
   $(".loader").removeClass("display");
   setTimeout(function () {
     $(".loader").addClass("display");
   }, 1000);
   $.ajax({
-    url: "https://official-joke-api.appspot.com/random_joke",
+    url: "https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/jokes",
     success: function (result) {
       let joke = result.setup + " " + result.punchline;
 
