@@ -24,8 +24,11 @@
     transform: rotate(360deg);
   }
 }
-.loader {
+
+.display {
   display: none !important;
+}
+.loader {
   font-size: 12em;
   flex-direction: column;
   background-color: #f0cb35;
