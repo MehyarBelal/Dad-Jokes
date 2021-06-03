@@ -1,9 +1,9 @@
 $(".loader").addClass("display");
-$("button").click(function () {
+$(".main-button").click(function () {
   $(".loader").removeClass("display");
   setTimeout(function () {
     $(".loader").addClass("display");
-  }, 500);
+  }, 1000);
   $.ajax({
     url: "https://official-joke-api.appspot.com/random_joke",
     success: function (result) {

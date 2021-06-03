@@ -120,3 +120,12 @@ h1 {
   text-transform: uppercase;
   font-weight: 400 !important;
 }
+
+.clear-btn {
+  margin-top: 30px;
+  padding: 0.2em 2em;
+  color: #000000;
+  background-color: #f0cb35;
+  border: 2px solid #f0c935;
+  letter-spacing: 0;
+}
