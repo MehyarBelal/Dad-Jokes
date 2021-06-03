@@ -17,5 +17,5 @@ $(".mainBtn").click(function () {
 });
 
 $(".clear-btn").click(function () {
-  $(".jokes").children().remove();
+  $("#joke-block").remove();
 });
