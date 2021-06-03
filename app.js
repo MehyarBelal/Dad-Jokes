@@ -1,5 +1,5 @@
 $(".loader").addClass("display");
-$("button").click(function () {
+$(".mainBtn").click(function () {
   $(".loader").removeClass("display");
   setTimeout(function () {
     $(".loader").addClass("display");
