@@ -3,7 +3,7 @@ $("button").click(function () {
   $(".loader").removeClass("display");
   setTimeout(function () {
     $(".loader").addClass("display");
-  }, 1000);
+  }, 500);
   $.ajax({
     url: "https://official-joke-api.appspot.com/random_joke",
     success: function (result) {
